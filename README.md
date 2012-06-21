@@ -5,4 +5,4 @@ Dinky is a red hot theme for GitHub Pages. [Fork it](https://github.com/broccoli
 
 ![](http://broccolini.net/images/dinky-example.png)
 
-Slate is available under the Creative Commons Attribution 3.0 License. Basically, use it, modify it, and remix it. Attribution is not necessary but it is appreciated :)
+Dinky is available under the Creative Commons Attribution 3.0 License. Basically, use it, modify it, and remix it. Attribution is not necessary but it is appreciated :)
