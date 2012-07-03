@@ -1,7 +1,9 @@
-dinky
-=====
+Dinky for Jekyll Bootstrap
+==========================
 
-Dinky is a red hot theme for GitHub Pages. [Fork it](https://github.com/broccolini/dinky/fork_select) and use it on your own site or generate one automatically using [GitHub Pages](http://pages.github.com).
+Dinky is a red hot theme for GitHub Pages by [Broccolini](http://github.com/broccolini/dinky).
+
+This version has been ported to Jekyll Bootstrap by [Sodabrew](http://sodabrew.com/): [Fork it](https://github.com/sodabrew/theme-dinky/fork_select).
 
 [![](http://broccolini.net/images/dinky-example.png)](http://urzajs.com/)
 
