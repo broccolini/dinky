@@ -21,13 +21,17 @@
       <header>
         <h1 class="header"><a href="{{ HOME_PATH }}">{{ site.title }}</a></h1>
         <p class="header">{{ site.tagline }}</p>
-        <a class="extra" href="{{ BASE_PATH }}{{ site.JB.archive_path }}">Archive</a>
-        <a class="extra" href="{{ BASE_PATH }}{{ site.JB.pages_path }}">Pages</a>
-        <a class="extra" href="{{ BASE_PATH }}{{ site.JB.categories_path }}">Categories</a>
-        <a class="extra" href="{{ BASE_PATH }}{{ site.JB.tags_path }}">Tags</a>
+        <ul>
+          <li><a class="extra" href="{{ BASE_PATH }}{{ site.JB.archive_path }}">Archive</a></li>
+          <li><a class="extra" href="{{ BASE_PATH }}{{ site.JB.pages_path }}">Pages</a></li>
+          <li><a class="extra" href="{{ BASE_PATH }}{{ site.JB.categories_path }}">Categories</a></li>
+          <li><a class="extra" href="{{ BASE_PATH }}{{ site.JB.tags_path }}">Tags</a></li>
+      </ul>
       </header>
 
+      <section>
       {{ content }}
+      </section>
 
       <footer>
         <p><small>Hosted on <a href="http://pages.github.com/">GitHub Pages</a> using the <a href="https://github.com/broccolini/dinky">Dinky theme</a></small></p>
