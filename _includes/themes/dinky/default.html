@@ -19,14 +19,12 @@
   <body>
     <div class="wrapper">
       <header>
-        <h1 class="header">{{ site.title }}</h1>
+        <h1 class="header"><a href="{{ HOME_PATH }}">{{ site.title }}</a></h1>
         <p class="header">{{ site.tagline }}</p>
         <ul>
-          <li><a class="extra" href="{{ BASE_PATH }}">Home</a></li>
-          <li><a class="extra" href="{{ BASE_PATH }}{{ site.JB.archive_path }}">Archive</a></li>
-          <li><a class="extra" href="{{ BASE_PATH }}{{ site.JB.pages_path }}">Pages</a></li>
-          <li><a class="extra" href="{{ BASE_PATH }}{{ site.JB.categories_path }}">Categories</a></li>
-          <li><a class="extra" href="{{ BASE_PATH }}{{ site.JB.tags_path }}">Tags</a></li>
+          {% assign pages_list = site.pages %}
+          {% assign group = 'navigation' %}
+          {% include JB/pages_list %}
         </ul>
         {% if site.ads.google %}
         <div class="misc ad">
