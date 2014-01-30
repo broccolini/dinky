@@ -98,12 +98,14 @@ strong {
 }
 
 ul li {
-  list-style: inside;
+  list-style-position: inside;
+  list-style: disc;
   padding-left: 25px;
 }
 
 ol li {
-  list-style: decimal inside;
+  list-style-position: inside;
+  list-style: decimal;
   padding-left: 20px;
 }
 
